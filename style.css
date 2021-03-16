@@ -22,6 +22,8 @@
 .background_hero {
     background-color: rgba(26,188,156,255);
     height: 250px;
+    text-align: center;
+
 }
 
 .img-container {
@@ -33,12 +35,25 @@
     height: 30px;
     background-color: whitesmoke;
 }
+
 .hero_text {
-    text-align: center;
     padding-top: 15px;
 }
 
 .img_hero {
     height: 50px;
     text-align: center;
+}
+
+.portfolio {
+    text-align: center;
+}    
+
+.portfolio [class*="col-"]{
+    height: 100px;
+}
+
+.img_portfolio {
+    height: 80px;
+    background-color: tomato;
 }
