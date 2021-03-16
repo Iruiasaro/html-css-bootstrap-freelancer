@@ -57,3 +57,18 @@
     height: 80px;
     background-color: tomato;
 }
+
+.about {
+    background-color:  rgba(26,188,156,255);
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.bt_download {
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top:15px;
+}
