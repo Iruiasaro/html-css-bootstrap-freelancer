@@ -9,8 +9,6 @@
 
 .background_hero {
     background-color: rgba(26,188,156,255);
-    text-align: center;
-
 }
 
 .img_container {
@@ -31,7 +29,7 @@
     text-align: center;
 } */
 
-.portfolio {
+/* .portfolio {
     text-align: center;
 }    
 
@@ -39,11 +37,6 @@
     height: 100px;
 }
 
-.img_portfolio {
-    min-height: 80px;
-    background-color: tomato;
-    margin: 15px, 0;
-}
 
 .about {
     background-color:  rgba(26,188,156,255);
@@ -108,4 +101,13 @@ header .navbar {
 
 .text-white p {
     font-size: 12px;
+}
+
+.box {
+    margin: 15px, 0;
+}
+
+.img_portfolio {
+    min-height: 100px;
+    margin: 15px 0;
 }
