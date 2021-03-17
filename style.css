@@ -1,11 +1,5 @@
 
 
-.text_white { 
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
 /* .row ul li {
     float: left;
     list-style: none;
@@ -15,14 +9,12 @@
 
 .background_hero {
     background-color: rgba(26,188,156,255);
-    height: 250px;
     text-align: center;
 
 }
 
-.img-container {
-    height: 60px;
-    background-color: rgb(115, 224, 64);
+.img_container {
+    max-width: 200px;
 }
 
 /* .img_hero {
@@ -110,3 +102,10 @@ header .navbar {
     background-color: #3a546d;
 }
 
+.text-white {
+    color: white;
+}
+
+.text-white p {
+    font-size: 12px;
+}
