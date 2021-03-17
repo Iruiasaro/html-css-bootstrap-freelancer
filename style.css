@@ -1,7 +1,4 @@
-.background_nav {
-    background-color:rgba(44,62,80,255);
-    min-height: 80px;
-}
+
 
 .text_white { 
     color: rgb(255, 255, 255);
@@ -9,12 +6,12 @@
     font-size: 12px;
 }
 
-.row ul li {
+/* .row ul li {
     float: left;
     list-style: none;
     padding: 2px;
     color: rgb(255, 255, 255);
-}
+} */
 
 .background_hero {
     background-color: rgba(26,188,156,255);
@@ -28,19 +25,19 @@
     background-color: rgb(115, 224, 64);
 }
 
-.img_hero {
+/* .img_hero {
     height: 30px;
     background-color: whitesmoke;
-}
+} */
 
-.hero_text {
+/* .hero_text {
     padding-top: 15px;
-}
+} */
 
-.img_hero {
+/* .img_hero {
     height: 50px;
     text-align: center;
-}
+} */
 
 .portfolio {
     text-align: center;
@@ -93,7 +90,23 @@
     height: 70px;
 }
 
-section {
+/* section {
     min-height: 150px;
+} */
+
+.nav_personal {
+    background-color: #2c3e50;
+} 
+header .navbar {
+    margin-bottom: 0;
+}
+
+.nav_personal a {
+    color: white;
+}
+
+.nav_personal .nav>li>a:focus,
+.nav_personal .nav>li>a:hover {
+    background-color: #3a546d;
 }
 
