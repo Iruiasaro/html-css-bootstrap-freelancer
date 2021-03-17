@@ -38,12 +38,7 @@
 }
 
 
-.about {
-    background-color:  rgba(26,188,156,255);
-    color: white;
-    text-align: center;
-    height: 250px;
-}
+
 
 .bt_download {
     background-color: transparent;
@@ -103,11 +98,24 @@ header .navbar {
     font-size: 12px;
 }
 
-.box {
-    margin: 15px, 0;
-}
-
 .img_portfolio {
     min-height: 100px;
     margin: 15px 0;
+}
+
+.about {
+    background-color: rgba(26,188,156,255);
+    color: white;
+    text-align: center;
+}
+
+button.btn-transparent {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 15px;
+}
+
+button.btn-transparent:hover {
+    color: white;
 }
