@@ -63,8 +63,13 @@ button.btn-transparent:hover {
 
 .btn_white {
     background-color: transparent;
-    border: solid 1px white;
+    border: 10px solid white;
 }
+
+.btn_white:hover {
+    background-color: transparent;
+}
+
 .btn_green {
     background-color: rgb(16, 184, 77);
     color: rgb(255, 255, 255);
@@ -72,17 +77,20 @@ button.btn-transparent:hover {
 
 .footer_top {
     background-color: #2c3e50;
+    min-height: 200px;
+    padding-top: 50px;
 }
 
 .footer_top a {
     line-height: 40px;
     text-align: center;
-    margin: 0;
     color: white;
 }
 
 .footer_bottom {
     background-color: #222f3c;
+    min-height: 80px;
+    padding-top: 40px;
 }
 
 .social {
@@ -93,8 +101,40 @@ button.btn-transparent:hover {
     border: 1px solid white;
 }
 
-section {
-    margin-top: 25px;
-    margin-bottom: 25px;
+main>section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+.line {
+    height: 2px;
+    background-color: white;
+    width: 20%;
+    border-radius: 2px;
+    display: inline-block;  
 }
 
+.star {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.star span {
+    vertical-align: middle;
+}
+
+.star-container {
+    vertical-align: text-top;
+    max-width: 320px;
+    margin-top: -15px;
+}
+
+.line-black {
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    border-radius: 2px;
+    display: inline-block;  
+}
