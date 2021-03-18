@@ -92,3 +92,9 @@ button.btn-transparent:hover {
     border-radius: 50%;
     border: 1px solid white;
 }
+
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
